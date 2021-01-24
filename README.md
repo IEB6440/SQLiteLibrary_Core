@@ -83,3 +83,8 @@ Update exists note:
 sqlitedb.Update(model); // Upadate is be from default ID property
 
 sqlitedb.Update(model, x => x.login); // Upadate is be from selected property - Login
+
+
+# Important!
+
+If, after building the project, the x86 x64 folders did not appear in the DEBUG folder, then they need to be added to the manual
