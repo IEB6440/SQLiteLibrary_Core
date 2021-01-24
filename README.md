@@ -15,7 +15,9 @@ There are also functions to find a specific field in a table, create and delete 
 3 - In the project you need to add the App.config file, if it is not there, and add the following lines to it
 
 <connectionStrings>
+    
     <add name="$StringID$" connectionString="Data Source=.\DBFileName.db;Version=3" providerName="System.Data.SqlClient" />
+    
 </connectionStrings>
 
 4 - You need to create an object through which you can interact with the database
